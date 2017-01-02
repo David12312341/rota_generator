@@ -1,0 +1,62 @@
+# rota_generator
+
+The purpose of the program is to plan schedule / monthly ROTA for a number of employees.
+
+
+INPUT PARAMETERS:
+
+
+1. Shifts
+
+-how many workers are required (minimum, optimal, maximal) for a give type of shift
+
+-what type of shifts may the worker attend the day after attending X type of shift
+
+-name, hours etc... 
+
+
+2. Workers:
+
+-if he/she is independent or a beginner (may work alone or not)
+
+-how many days in row may the worker attend shifts
+
+-how many days in row the worker should have the same type of shift
+
+-how many days does he/she work in a given month
+
+-what are his "wishes" (if there is a specific shift that he wants at a given day)
+
+-name, description etc...
+
+
+3. Empty calendar 
+
+-with specified working days and holidays for the month to be planned
+
+
+
+OUTPUT DATA:
+
+1. ROTA
+
+-calendar type of object filled out with workers objects at each given day considering given parameters
+or number of calendar objects that match the parameters close enough
+
+
+2. Statistics
+
+-for each worker: how many days he worked and rested
+
+
+
+
+PROGRESS:
+
+1. Create beta version of the engine that displays result in the console ...DONE
+
+2. Deploy on HEROKU... IN PROGRESS
+
+3. Add front-end... IN PROGRESS
+
+
