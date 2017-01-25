@@ -53,7 +53,7 @@ or number of calendar objects that match the parameters close enough
 
 PROGRESS:
 
-1. Create beta version of the engine that displays result in the console ...IN PROGRESS
+1. Create beta version of the engine that displays result in the console ...DONE!
 
 2. Deploy on HEROKU... TO BE DONE
 
